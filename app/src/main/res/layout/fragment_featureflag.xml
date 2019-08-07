@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018 Philips Lighting Holding B.V.
+  ~
+  ~ All rights are reserved. Reproduction or dissemination
+  ~ in whole or in part is prohibited without the prior written
+  ~ consent of the copyright holder.
+  -->
+
+<androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recyclerview_featureflag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_featureflag"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"/>

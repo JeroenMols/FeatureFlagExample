@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018 Philips Lighting Holding B.V.
+  ~
+  ~ All rights are reserved. Reproduction or dissemination
+  ~ in whole or in part is prohibited without the prior written
+  ~ consent of the copyright holder.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framelayout_testsettings_fragmentcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jeroenmols.featureflag.testsettings.TestSettingsActivity"
+    tools:layout_marginTop="24dp">
+
+    <TextView
+        android:id="@+id/textview_testsettings_explanation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:padding="16dp"
+        android:text="Dynamically adjust the runtime behavior of the app. This is a internal only feature that musn't be used by anyone else."
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_testsettings_featuretoggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:padding="16dp"
+        android:text="Feature flags"
+        android:background="#EEEEEE"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_testsettings_explanation" />
+
+    <TextView
+        android:id="@+id/formattextview_testsettings_testsetting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="#F5F5F5"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:padding="16dp"
+        android:text="Test settings"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_testsettings_featuretoggle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
