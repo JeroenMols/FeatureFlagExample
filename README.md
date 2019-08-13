@@ -12,6 +12,11 @@ This repository shows a clear, very easy to use architecture to manage feature f
 
 Read more about it in this blogpost: https://jeroenmols.com/blog/2019/08/27/featureflagsarchitecture/
 
+## Architecture
+
 ![Feature flag architecture](https://raw.githubusercontent.com/JeroenMols/FeatureFlagExample/master/readme/featureflag_architecture.png)
+
+## Test settings
+In app activity to toggle feature flags and test settings locally on or off. This dramatically helps with testing.
 
 ![Feature flag test settings](https://raw.githubusercontent.com/JeroenMols/FeatureFlagExample/master/readme/test_settings.jpg)
