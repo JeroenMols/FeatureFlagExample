@@ -23,6 +23,7 @@
         <activity
             android:name="com.jeroenmols.featureflag.testsettings.TestSettingsActivity"
             android:label="@string/app_testsettings"
+            android:launchMode="singleInstance"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
