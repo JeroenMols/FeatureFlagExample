@@ -11,3 +11,7 @@ This repository shows a clear, very easy to use architecture to manage feature f
 - Support any remote feature flag tool
 
 Read more about it in this blogpost: https://jeroenmols.com/blog/2019/08/27/featureflagsarchitecture/
+
+![Feature flag architecture](https://raw.githubusercontent.com/JeroenMols/FeatureFlagExample/master/readme/featureflag_architecture.png)
+
+![Feature flag test settings](https://raw.githubusercontent.com/JeroenMols/FeatureFlagExample/master/readme/test_settings.jpg)
