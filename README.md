@@ -10,7 +10,7 @@ This repository shows a clear, very easy to use architecture to manage feature f
 - Able to use in unit/instrumentation testing
 - Support any remote feature flag tool
 
-Read more about it in this blogpost: https://jeroenmols.com/blog/2019/08/27/featureflagsarchitecture/
+Read more about it in this blogpost: https://jeroenmols.com/blog/2019/09/12/featureflagsarchitecture/
 
 ## Architecture
 
